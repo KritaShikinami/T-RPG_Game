@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "id": "flat_01",
+      "name": "Düz Alan",
+      "tileset": "ascii_plain",
+      "size": { "width": 40, "height": 15 },
+      "default_tile": { "type": "wasted_dirt", "char": ".", "walkable": true }
+    }
+  ]
+}

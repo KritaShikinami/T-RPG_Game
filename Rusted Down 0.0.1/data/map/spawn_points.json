@@ -1,0 +1,11 @@
+{
+  "spawns": [
+    {
+      "id": "player_start",
+      "region": "flat_01",
+      "x": 2,
+      "y": 2,
+      "type": "player"
+    }
+  ]
+}

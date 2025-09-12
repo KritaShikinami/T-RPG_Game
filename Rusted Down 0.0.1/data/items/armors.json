@@ -1,0 +1,85 @@
+{
+  "armors": [
+    {
+      "id": "arm_leather_jacket",
+      "name": "Deri Ceket",
+      "type": "light",
+      "rarity": "common",
+      "defense": 3,
+      "resistance": {
+        "fire": 0,
+        "radiation": 1,
+        "impact": 2
+      },
+      "weight": 2.5,
+      "durability": 60,
+      "value": 40,
+      "requirements": {
+        "strength": 3
+      },
+      "effects": [],
+      "description": "Hafif koruma sağlar, hareket kabiliyetini kısıtlamaz."
+    },
+    {
+      "id": "arm_kevlar_vest",
+      "name": "Kevlar Yelek",
+      "type": "medium",
+      "rarity": "uncommon",
+      "defense": 6,
+      "resistance": {
+        "fire": 1,
+        "radiation": 2,
+        "impact": 5
+      },
+      "weight": 5.0,
+      "durability": 100,
+      "value": 120,
+      "requirements": {
+        "strength": 5
+      },
+      "effects": ["bullet_resist"],
+      "description": "Mermi geçirmez yapısıyla çatışmalarda avantaj sağlar."
+    },
+    {
+      "id": "arm_hazmat_suit",
+      "name": "Koruyucu Giysi",
+      "type": "special",
+      "rarity": "rare",
+      "defense": 2,
+      "resistance": {
+        "fire": 0,
+        "radiation": 10,
+        "impact": 1
+      },
+      "weight": 4.0,
+      "durability": 80,
+      "value": 200,
+      "requirements": {
+        "intelligence": 4
+      },
+      "effects": ["radiation_immunity"],
+      "description": "Yüksek radyasyonlu bölgelerde hayatta kalmak için tasarlanmıştır."
+    },
+    {
+      "id": "arm_power_armor",
+      "name": "Güç Zırhı",
+      "type": "heavy",
+      "rarity": "legendary",
+      "defense": 15,
+      "resistance": {
+        "fire": 5,
+        "radiation": 5,
+        "impact": 15
+      },
+      "weight": 30.0,
+      "durability": 300,
+      "value": 1000,
+      "requirements": {
+        "strength": 8,
+        "science": 6
+      },
+      "effects": ["strength_boost", "damage_resist"],
+      "description": "Ağır koruma sağlar, kullanıcının gücünü artırır ancak hareket kabiliyetini kısıtlar."
+    }
+  ]
+}

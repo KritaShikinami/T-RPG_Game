@@ -1,0 +1,124 @@
+{
+  "materials": [
+    {
+      "id": "mat_leather_jacket",
+      "name": "Deri Ceket",
+      "type": "armor",
+      "rarity": "common",
+      "weight": 2.5,
+      "value": 40,
+      "effects": [
+        {
+          "type": "defense_bonus",
+          "value": 3
+        }
+      ],
+      "description": "Soğuktan korur, hafif darbelere karşı dayanıklıdır."
+    },
+    {
+      "id": "mat_medkit_basic",
+      "name": "Temel Medkit",
+      "type": "consumable",
+      "rarity": "uncommon",
+      "weight": 0.8,
+      "value": 25,
+      "effects": [
+        {
+          "type": "heal",
+          "value": 20
+        }
+      ],
+      "description": "Küçük yaraları tedavi eder, acil durumlar için idealdir."
+    },
+    {
+      "id": "mat_scrap_metal",
+      "name": "Hurda Metal",
+      "type": "crafting",
+      "rarity": "common",
+      "weight": 1.2,
+      "value": 10,
+      "effects": [],
+      "description": "Basit tamirlerde veya silah üretiminde kullanılabilir."
+    },
+    {
+      "id": "mat_battery_pack",
+      "name": "Pil Paketi",
+      "type": "energy",
+      "rarity": "uncommon",
+      "weight": 1.0,
+      "value": 30,
+      "effects": [
+        {
+          "type": "energy_restore",
+          "value": 15
+        }
+      ],
+      "description": "Enerji silahları ve ekipmanları için güç kaynağı sağlar."
+    },
+    {
+      "id": "mat_water_bottle",
+      "name": "Su Şişesi",
+      "type": "consumable",
+      "rarity": "common",
+      "weight": 1.0,
+      "value": 8,
+      "effects": [
+        {
+          "type": "hydration",
+          "value": 10
+        }
+      ],
+      "description": "Sağlık verir ve hafif enerji verir."
+    },
+    {
+        "id": "mat_canned_food",
+        "name": "Konserve Gıda",
+        "type": "consumable",
+        "rarity": "common",
+        "weight": 1.5,
+        "value": 12,
+        "effects": [
+            {
+            "type": "nutrition",
+            "value": 15
+            }
+        ],
+        "description": "Uzun süre dayanabilir, sağlık verir ve acil durumlar için uygundur."
+    },
+    {
+      "id": "mat_first_aid_kit",
+      "name": "İlk Yardım Kiti",
+      "type": "consumable",
+      "rarity": "rare",
+      "weight": 1.0,
+      "value": 60,
+      "effects": [
+        {
+          "type": "heal",
+          "value": 50
+        }
+      ],
+      "description": "Ciddi yaralanmaları tedavi etmek için kullanılır."
+    },
+    {
+      "id": "mat_metal_case",
+      "name": "Boş kutu konserve",
+      "type": "consumable",
+      "rarity": "common",
+      "weight": 1.0,
+      "value": 15,
+      "effects": [],
+      "description": "Boş kutu konserve, içi boş."
+    },
+    {
+      "id": "mat_weapon_kit",
+      "name": "Silah Tamir Kiti",
+      "type": "crafting",
+      "rarity": "rare",
+      "weight": 2.0,
+      "value": 60,
+      "effects": [],
+      "description": "Silahı tamir eder ve tekrar kullanılabilir hale getirir."
+    }
+  ]
+}

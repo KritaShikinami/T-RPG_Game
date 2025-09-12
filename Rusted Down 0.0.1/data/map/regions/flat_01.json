@@ -1,0 +1,10 @@
+{
+  "region_id": "flat_01",
+  "objects": [
+    { "x": 5,  "y": 3,  "type": "rock", "char": "#", "walkable": false },
+    { "x": 6,  "y": 3,  "type": "rock", "char": "#", "walkable": false },
+    { "x": 7,  "y": 3,  "type": "rock", "char": "#", "walkable": false },
+    { "x": 20, "y": 10, "type": "tree", "char": "T", "walkable": false },
+    { "x": 22, "y": 11, "type": "NPC", "char": "@", "walkable": true, "name": "Wanderer" }
+  ]
+}
