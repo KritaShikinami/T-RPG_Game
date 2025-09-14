@@ -1,0 +1,12 @@
+{
+  "name": "Krita",
+  "level": 1,
+  "stats": {
+    "strength": 5,
+    "dexterity": 5,
+    "intelligence": 5,
+    "science": 5,
+    "max_weight": 200
+  },
+  "inventory": ["wpn_10mm_pistol", "leather_jacket", "medkit"]
+}

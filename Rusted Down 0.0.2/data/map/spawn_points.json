@@ -1,0 +1,10 @@
+{
+  "spawns": [
+    {
+      "type": "player",
+      "region": "region_south_dockyard_1",
+      "x": 5,
+      "y": 5
+    }
+  ]
+}

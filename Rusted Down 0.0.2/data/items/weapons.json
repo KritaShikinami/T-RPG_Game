@@ -1,0 +1,69 @@
+{
+  "weapons":
+  [
+    {
+      "id": "wpn_10mm_pistol",
+      "name": "10MM Tabanca",
+      "type": "light_gun",
+      "subtype": "gun",
+      "rarity": "common",
+      "damage": {
+        "min": 5,
+        "max": 10
+      },
+      "ap": 5,
+      "weight": 3,
+      "durability": 100,
+      "value": 50,
+      "requirements": {
+        "strength": 5,
+        "dexterity": 2
+      },
+      "effects": [],
+      "description": "Standart 10mm tabanca, orta menzilli çatışmalar için uygundur."
+    },
+    {
+      "id": "wpn_laser_rifle",
+      "name": "Lazer Tüfek",
+      "type": "heavy_gun",
+      "subtype": "energy_weapon",
+      "rarity": "rare",
+      "damage": {
+        "min": 15,
+        "max": 25
+      },
+      "ap": 8,
+      "weight": 12,
+      "durability": 80,
+      "value": 300,
+      "requirements": {
+        "strength": 8,
+        "dexterity": 5,
+        "sience": 4
+      },
+      "effects": ["energy_damage"],
+      "description": "Yüksek teknoloji lazer tüfek, enerji hasarı verir, uzun mesafede bile etkilidir."
+    },
+    {
+      "id": "wpn_shotgun",
+      "name": "Pompalı Tüfek",
+      "type": "heavy_gun",
+      "subtype": "shotgun",
+      "rarity": "uncommon",
+      "damage": {
+        "min": 20,
+        "max": 30
+      },
+      "ap": 10,
+      "weight": 15,
+      "durability": 90,
+      "value": 150,
+      "requirements": {
+        "strength": 7,
+        "dexterity": 3
+      },
+      "effects": ["spread_damage"],
+      "description": "Yakın mesafede yüksek hasar veren pompalı tüfek."
+    }
+  ]
+}
