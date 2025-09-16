@@ -1,0 +1,22 @@
+{
+  "regions": [
+    {
+      "id": "region_south_dockyard_1",
+      "name": "Güney Liman Bölgesi 1",
+      "size": { "width": 40, "height": 15 },
+      "default_tile": { "type": "surface", "char": ".", "walkable": true }
+    },
+    {
+      "id": "region_south_dockyard_2",
+      "name": "Güney Liman Bölgesi 2",
+      "size": { "width": 40, "height": 15 },
+      "default_tile": { "type": "surface", "char": ".", "walkable": true }
+    },
+    {
+      "id": "region_south_dockyard_2_bar",
+      "name": "Güney Liman Bölgesi 2 Bar",
+      "size": { "width": 40, "height": 15 },
+      "default_tile": { "type": "surface", "char": ".", "walkable": true }
+    }    
+  ]
+}

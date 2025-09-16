@@ -1,0 +1,60 @@
+{
+  "id": "npc_dock_guard",
+  "name": "Liman Bekçisi",
+  "personality": "Sert yüzlü, ama iyi niyetli. Limanı ve çevresini korumakla görevli.",
+  "ascii_face": [
+    "▒▒▒▒▒▒▒▒▒▒▒▓██████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒▒▒▒█▓████████████████▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒▒▒▓████████████████████▓▒▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒▒███████████████████████▓▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒██████████████████████████▒▒▒▒▒▒▒▒▒▒",
+    "▒▓██████████████████████████▒▒▒▒▒▒▒▒▒▒",
+    "▒███████████████████████████▒▒▒▒▒▒▒▒▒▒",
+    "▒██████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒████▓▒▒▒▒▒▒▒▒",
+    "▒▓███████▓▒▒████▒▒▓▒▓██▓█████▒▒▒▒▒▒▒▒▒",
+    "▒▒█████████████▒░▒▓▓█████▓░░▒▒░▒▒▒▒▒▒▒",
+    "▒▒▒█████▓▒▓█▒▓▓▒▒▓░░▒██▓▒▒▓█▓░▒▒▒▒▒▒▒▒",
+    "▒▒▒▓█████▒▒▒▒▓▓▒▒▒▒▒▒▓▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒▒▒▒▓███▓▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▓▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒▒▒▒▒▒▒▓██▓▒▒▒▒▒█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒▒▒▒▒▒▒▒▒▒███▒▒▒▒▒▓▒▒▒▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒▒▒▒▒▒▒▒▒▒██▓▓███▓█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒▒▒▒▒▒▒▒▒▓▓▓▓▒▒▒▓███▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒",
+    "▒▒▒▒▒▒▒▒▒▓█▒▒▒▒▒▓▓▒▒▒▒▓▒▒▒▓██▓▒▒▒▒▒▒▒▒",
+    "▒▒▒▒▒▒▒▒███▓▒▒▒▒▒▒▒▒█▓▒▒▒▓███████▒▒▒▒▒",
+    "▒▒▒▒▒▒██████▒▒▒▒▒▒▒▒██▒▒▒█▓▓█████████▓",
+    "▒▒▒▓█████████▓▒▒▒▒▓████▒██▒▒██████████",
+    "██████████████▓▒▒▒▓▒███▒█▓▒▒▓█████████"
+  ],
+  "dialog": {
+    "first_time": {
+      "line": "(Limandaki görevli ekmeğini yerken sana bakar) Hey, evlat. Bu limanda fazla dolanma... Burada işini yap ve git.",
+      "options": ["Evet", "Hayır", "Neden?", "Bay"]
+    },
+    "repeat": {
+      "line": "(Görevli her zamanki gibi kahvesini içiyor, senin geldiğini görünce de kahvesini bir kenara bırakır.) Ahh, yine mi sen?\nBu limanda fazla dolanmamalısın evlat...",
+      "options": ["Evet", "Hayır", "Neden?", "Bay"]
+    },
+    "responses": {
+      "Evet": "(Görevli hafifçe kıkırdarı) Heh, çok çabuk kabullendin, yoksa korktun mu...? Her neyse, gözüm üzerinde olacak - dikkatli ol.",
+      "Hayır": "Sen bilirsin. Ama dikkatli ol. Başına bir şey gelirse sorumlusu ben değilim.",
+      "Neden?": {
+        "line": "Çünkü burası artık güvenli değil. Serseriler ve diğer tehlikeli mafyatik tiplemeler arttı. İşini yaparken dikkatli olmalısın kısacası...",
+        "options": ["Mafya mı?", "Polis ne yapıyor?", "Bay"]
+      },
+      "Mafya mı?": {
+        "line": "Ahh... Özellikle gece saatlerinde liman çevresinde dolaşan tipler var. Boş konteynırları patlatıyorlar, malları çalıyorlar. Bazen de rakip mafyadan birbirlerine saldırıyorlar.",
+        "options": ["Yardım edebileceğim bir şey var mı?", "Bay"]
+      },
+      "Polis ne yapıyor?": {
+        "line": "Polis mi? Heh, hadi ama! Onlar da korkuyor artık. Bazı bölgelerde devriye bile atamıyorlar. Sanırım dünki haberleri okumadın?",
+        "options": ["Hayır, haberleri okumadım... Yardım edebileceğim bir şey var mı?", "Bay"]
+      },
+      "Yardım edebilir miyim?": {
+        "line": "Yardım mı? Heh, eğer bu tür şeylerle başa çıkabileceğini düşünüyorsan, neden olmasın? Ama dikkatli ol, evlat. Bu tipler tehlikeliler.",
+        "options": ["Bay"]
+      },
+      "Bay": "Hadi git bakalım. Ama başına bir şey gelirse sorumlusu ben değilim."
+    }
+  }
+}

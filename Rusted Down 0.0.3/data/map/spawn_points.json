@@ -1,0 +1,22 @@
+{
+  "spawns": [
+    {
+      "type": "player",
+      "region": "region_south_dockyard_1",
+      "x": 6,
+      "y": 6
+    },
+    {
+      "type": "player",
+      "region": "region_south_dockyard_2",
+      "x": 6,
+      "y": 8
+    },
+    {
+      "type": "player",
+      "region": "region_south_dockyard_2_bar",
+      "x": 20,
+      "y": 3
+    }
+  ]
+}
